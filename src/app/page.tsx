@@ -24,7 +24,7 @@ export default function Home() {
     const day = date.getDate()
   return (
       <div className={"w-screen h-screen flex flex-col justify-center items-center"}>
-        <div className={"flex flex-col w-1/3 h-screen justify-center items-start gap-1"}>
+        <div className={"flex flex-col w-full md:w-1/3 h-screen justify-center items-start gap-1 mx-5"}>
             <h1 className={"text-[20rem] font-bold leading-[20rem]"}>{day}</h1>
             <h2 className={"text-4xl font-bold"}>{month + 1}/{year}</h2>
             <div className={"border-t-4 border-black w-full"} />
